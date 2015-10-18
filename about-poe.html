@@ -6,54 +6,86 @@
     <meta name="description" content="The advanced markup and page layout assignment.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cardo" />
+	
 </head>
 <body>
     <header>
         <h1>Sonnet: to Science</h1>
-        <nav><!-- TODO: Link pages properly -->
-            <ul class="top-nav"><!-- TODO: Make this list be a horizontal navigation -->
-                <li><a href="">Home</a></li>
-                <li><a href="" class="active">About Poe</a></li>
-                <li><a href="">Interpretation</a></li>
+        <nav>
+            <ul class="top-nav">
+              	<li><a href="index.html">Home</a></li>
+                <li><a href="about-poe.html" class="active">About Poe</a></li>
+                <li><a href="interpretation.html">Interpretation</a></li>
             </ul>
+		
         </nav>
     </header>
-    <aside id="sidebar"><!-- TODO: Make sidebar float right. -->
-        <h2>Bio Stats</h2>
-        <!-- TODO: Use a definition list to format the information below -->
-        Born:
-            January 19, 1809
-        Died:
-            October 7, 1849
-        Alma Mater:
-            University of Virginia
-        Spouse:
-            Virginia Eliza Clemm Poe
-
-        <h2>Share This!</h2>
-        <ul>
-            <li><a class="twitter" href="http://twitter.com">Twitter</a></li>
-            <li><a class="facebook" href="http://facebook.com">Facebook</a></li>
-            <li><a class="pinterest" href="http://pinterest.com">Pinterest</a></li>
+	
+    <aside id="sidebar">
+		<h2>Bio Stats</h2>
+       <dl>
+		   <dt><b>Born:</b></dt> 
+		   <dd>January 19, 1809</dd>
+		   <dt><b>Died:</b></dt>
+		   <dd>October 7, 1849</dd>
+		   <dt><b>Alma Mater:</b></dt>
+		   <dd>University of Virginia</dd>
+		   <dt><b>Spouse:</b></dt>
+		   <dd>Virginia Eliza Clemm Poe</dd>
+		</dl>
+       <h2><li><a href="mailto:?subject=Check out this page&body=[sub]" onclick="this.href = this.href.replace('[sub]',window.location)">Share this!</a> </li></h2>
+		
+		
+        <div id="social-media-icons">
+		<ul>
+			<!--Icons designed by Freepik-->
+				<li><a class="twitter" href="http://twitter.com"><img src="twitter20.png" /></a></li>
+            <li><a class="facebook" href="http://facebook.com"><img src="facebook31.png"/></a></li>
+            <li><a class="pinterest" href="http://pinterest.com"><img src="pinterest.png"/></a></li>
         </ul>
+		   </div>
+	
+		
     </aside>
     <section id="content">
-        <!-- TODO: In this section fill in formatting markup as needed. Link the
-        numbers in brackets to the proper citation in the footer of the page
-        using in-page anchors (aka bookmark links). -->
         <h2>Biographical Summary</h2>
-        <p class="bio-photo">
-            <!-- TODO: Float this photo to the left of the 
-            page, and give this paragraph a visual style to set off the photo
-            and caption. -->
+        <p>Edgar Allan Poe (born Edgar Poe; January 19, 1809 – October 7, 1849) was an American author, poet, editor, and literary critic, considered part of the American Romantic Movement.
+	Best known for his tales of mystery and the macabre, Poe was one of the earliest American practitioners of the short story, and is generally considered the inventor of the detective fiction genre. 
+	He is further credited with contributing to the emerging genre of 
+	science fiction.<a href="citation-1"><sup>[1]</sup></a> He was the first well-known American writer to try to earn a living through writing alone, resulting in a financially 
+	difficult life and career.<a href="citation-2"><sup>[2]</sup></a></p>
+
+        
+		<p class="bio-photo">
+   
             <img src="Edgar_Allan_Poe_daguerreotype_crop.png" alt="Edgar Allan Poe"><br>
-            Daguerreotype of Edgar Allan Poe, known as the "Annie" Daguerreotype
+            Daguerreotype of Edgar Allan Poe, known as the &ldquo;Annie&rdquo; Daguerreotype
         </p>
-        <p>Edgar Allan Poe (born Edgar Poe; January 19, 1809 – October 7, 1849) was an American author, poet, editor, and literary critic, considered part of the American Romantic Movement. Best known for his tales of mystery and the macabre, Poe was one of the earliest American practitioners of the short story, and is generally considered the inventor of the detective fiction genre. He is further credited with contributing to the emerging genre of science fiction.[1] He was the first well-known American writer to try to earn a living through writing alone, resulting in a financially difficult life and career.[2]</p>
+       <p>Born in Boston, Poe was the second child of two actors. 
+			His father abandoned the family in 1810, and his mother died the following year. Thus orphaned, the child was taken in by John and Frances Allan, of Richmond, Virginia. Although they never formally adopted him, Poe was with them well into young adulthood. 
+		   Tension developed later as John Allan and Edgar repeatedly clashed over debts, 
+		   including those incurred by gambling, and the cost of secondary education for the young man. Poe attended the University of 
+		   Virginia for one semester but left due to lack of money. Poe quarreled with Allan over the funds for his education and enlisted 
+		   in the Army in 1827 under an assumed name. It was at this time his publishing career began, albeit humbly, with an anonymous 
+		   collection of poems, Tamerlane and Other Poems (1827), credited only to &ldquo;a Bostonian&rdquo;. With the death of Frances Allan in 1829, Poe and Allan reached a temporary rapprochement. Later failing as an officer's cadet at West Point and declaring a firm wish to be a poet and writer, Poe parted ways with John Allan.</p>
 
-        <p>Born in Boston, Poe was the second child of two actors. His father abandoned the family in 1810, and his mother died the following year. Thus orphaned, the child was taken in by John and Frances Allan, of Richmond, Virginia. Although they never formally adopted him, Poe was with them well into young adulthood. Tension developed later as John Allan and Edgar repeatedly clashed over debts, including those incurred by gambling, and the cost of secondary education for the young man. Poe attended the University of Virginia for one semester but left due to lack of money. Poe quarreled with Allan over the funds for his education and enlisted in the Army in 1827 under an assumed name. It was at this time his publishing career began, albeit humbly, with an anonymous collection of poems, Tamerlane and Other Poems (1827), credited only to "a Bostonian". With the death of Frances Allan in 1829, Poe and Allan reached a temporary rapprochement. Later failing as an officer's cadet at West Point and declaring a firm wish to be a poet and writer, Poe parted ways with John Allan.</p>
-
-        <p>Poe switched his focus to prose and spent the next several years working for literary journals and periodicals, becoming known for his own style of literary criticism. His work forced him to move among several cities, including Baltimore, Philadelphia, and New York City. In Baltimore in 1835, he married Virginia Clemm, his 13-year-old cousin. In January 1845 Poe published his poem, "The Raven", to instant success. His wife died of tuberculosis two years after its publication. For years, he had been planning to produce his own journal, The Penn (later renamed The Stylus), though he died before it could be produced. On October 7, 1849, at age 40, Poe died in Baltimore; the cause of his death is unknown and has been variously attributed to alcohol, brain congestion, cholera, drugs, heart disease, rabies, suicide, tuberculosis, and other agents.[3]</p>
+        <p>Poe switched his focus to prose and spent the next 
+			several years working for literary journals and 
+			periodicals, becoming known for his own style of 
+			literary criticism. His work forced him to move among 
+			several cities, including Baltimore, Philadelphia, and 
+			New York City. In Baltimore in 1835, he married Virginia 
+			Clemm, his 13-year-old cousin. In January 1845 Poe 
+			published his poem, &ldquo;The Raven&rdquo;, to instant success. 
+			His wife died of tuberculosis two years after its 
+			publication. For years, he had been planning to produce 
+			his own journal, The Penn (later renamed The Stylus), 
+			though he died before it could be produced. On October 7, 
+			1849, at age 40, Poe died in Baltimore; the cause of his 
+			death is unknown and has been variously attributed to 
+			alcohol, brain congestion, cholera, drugs, heart disease, 
+			rabies, suicide, tuberculosis, and other agents.<a href="citation-3"><sup>[3]</sup></a></p>
 
         <p>Poe and his works influenced literature in the United States and around the world, as well as in specialized fields, such as cosmology and cryptography. Poe and his work appear throughout popular culture in literature, music, films, and television. A number of his homes are dedicated museums today. The Mystery Writers of America present an annual award known as the Edgar Award for distinguished work in the mystery genre.</p>
 
@@ -66,16 +98,114 @@
         </p>
         <h2>Selected Works</h2>
         <table id="selected_works">
-            <!-- TODO: Create an accessible <table> structure here representing the
-            the provided table of information in poe_selected_works.pdf. -->
+			<tr>
+				<th>Title</th>												<th>Format</th>		<th>Year</th>
+			</tr>
+			<tr>
+				<td>&ldquo;The Black Cat&rdquo;</td>									<td>story</td>		<td>1845</td>
+			</tr>
+			<tr>
+				<td>&ldquo;The Cask of Amontillado&rdquo;</td>							<td>story</td>		<td>1846</td>
+			</tr>
+			<tr>	
+				<td>&ldquo;A Descent into the Maelstrom&rdquo;</td>						<td>story</td>		<td>1845</td>
+			</tr>
+			<tr>	
+				<td>&ldquo;The Facts in the Case of M. Valdemar&rdquo;</td>				<td>story</td>		<td>1845</td>
+			</tr>
+			<tr>	
+				<td>&ldquo;The Fall of the House of Usher&rdquo;</td>					<td>story</td>		<td>1839</td>
+			</tr>
+			<tr>	
+				<td>&ldquo;The Gold-Bug&rdquo;</td>										<td>story</td>		<td>1843</td>
+			</tr>
+			<tr>
+				<td>&ldquo;Hop-Frog&rdquo;</td>											<td>story</td>		<td>1845</td>
+			</tr>
+			<tr>
+				<td>&ldquo;The Imp of the Perverse&rdquo;</td>							<td>story</td>		<td>1850</td>
+			</tr>
+			<tr>
+				<td>&ldquo;Ligeia&rdquo;</td>											<td>story</td>		<td>1838</td>
+			</tr>
+			<tr>
+				<td>&ldquo;The Masque of the Red Death&rdquo;</td>						<td>story</td>		<td>1850</td>
+			</tr>
+			<tr>
+				<td>&ldquo;The Murders in the Rue Morgue&rdquo;</td>					<td>story</td>		<td>1841</td>
+			</tr>
+			<tr>
+				<td>&ldquo;The Oval Portrait&rdquo;</td>								<td>story</td>		<td>1850</td>
+			</tr>
+			<tr>
+				<td>&ldquo;The Pit and the Pendulum&rdquo;</td>							<td>story</td>		<td>1850</td>
+			</tr>
+			<tr>
+				<td>&ldquo;The Premature Burial&rdquo;</td>								<td>story</td>		<td>1850</td>
+			</tr>
+			<tr>
+				<td>&ldquo;The Purloined Letter&rdquo;</td>								<td>story</td>		<td>1845</td>
+			</tr>
+			<tr>
+				<td>&ldquo;The System of Doctor Tarr and Professor Fether&rdquo;</td>	<td>story</td>		<td>1856</td>
+			</tr>
+			<tr>
+				<td>&ldquo;The Tell-Tale Heart&rdquo;</td>								<td>story</td>		<td>1850</td>
+			</tr>
+			<tr>
+				<td>Annabel Lee</td>										<td>poem</td>		<td>1849</td>
+			</tr>
+			<tr>
+				<td>The Bells</td>											<td>poem</td>		<td>1849</td>
+			</tr>
+			<tr>
+				<td>The City in the Sea</td>								<td>poem</td>		<td>1831</td>
+			</tr>
+			<tr>
+				<td>The Conqueror Worm</td>									<td>poem</td>		<td>1843</td>
+			</tr>
+			<tr>
+				<td>A Dream Within a Dream</td>								<td>poem</td>		<td>1850</td>
+			</tr>
+			<tr>
+				<td>Eldorado</td>											<td>poem</td>		<td>1849</td>
+			</tr>
+			<tr>
+				<td>The Haunted Palace</td>									<td>poem</td>		<td>1839</td>
+			</tr>
+			<tr>
+				<td>The Raven</td>											<td>poem</td>		<td>1845</td>
+			</tr>
+			<tr>
+				<td>Politian</td>											<td>play</td>		<td>1835</td>
+			</tr>
+			<tr>
+				<td>The Narrative of Arthur Gordon Pym of Nantucket</td>	<td>novel</td>		<td>1838</td>
+			</tr>
+			<tr>
+				<td>The Balloon-Hoax</td>									<td>hoax</td>		<td>1844</td>
+			</tr>
+			<tr>
+				<td>The Philosophy of Composition</td>						<td>essay</td>		<td>1846</td>
+			</tr>
+			<tr>
+				<td>Eureka: A Prose Poem</td>								<td>essay</td>		<td>1848</td>
+			</tr>
+			<tr>
+				<td>The Poetic Principle</td>								<td>essay</td>		<td>1848</td>
+			</tr>
+			<tr>
+				<td>The Light-House</td>									<td>incomplete</td>	<td>1849</td
+			</tr>
+
         </table>
     </section>
     <footer>
-        <nav><!-- TODO: Link pages properly -->
-            <ul class="bottom-nav"><!-- TODO: Make this list be a horizontal navigation -->
-                <li><a href="">Home</a></li>
-                <li><a href="" class="active">About Poe</a></li>
-                <li><a href="">Interpretation</a></li>
+        <nav>
+            <ul class="bottom-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-poe.html" class="active">About Poe</a></li>
+                <li><a href="interpretation.html">Interpretation</a></li>
             </ul>
         </nav>
         <p>&copy;2015 Jane Student</p>

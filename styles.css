@@ -1,1 +1,154 @@
 /* Styles for the Advanced Markup assignment. */
+
+body {
+	list-style-type:none;
+	width: 750px;
+	background:rgb(229,230,228);
+	margin:auto;
+	top:0;
+	line-height: 25px;	
+	
+}
+header {
+	margin: 0;
+	position: fixed;
+	width: 750px;
+	background: rgb(132,117,119); 
+	color: rgb(229,230,228);
+	
+}
+
+h1{
+	margin:0;
+	padding:10px;
+}
+nav {
+	background-color: rgb(166,162,162);
+	text-align:center;
+	padding: 10px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color:rgb(229,230,228);
+}
+
+nav ul {
+	display: inline;
+	padding: 0;
+}
+nav ul li {
+	display: inline;
+	padding-left: 10px;
+	padding-right:10px;
+}
+
+nav li:hover  {
+    background: rgb(207,210,205);
+    }
+p {
+	padding-left: 10px;
+}
+aside {
+	width: 250px;
+	float: right;
+	padding: 125px 10px 10px 10px;
+	margin:5px;
+	background:rgb(207,210,205); 
+	font-family: Cardo;
+	font-size:80%;
+	
+}
+
+h2 {
+	text-align:center;
+	margin:0;
+}
+
+dl {
+	margin:0;
+}
+
+#content {
+	padding-top:125px;
+	padding-left:10px;
+	padding-right:10px;
+	background-color: rgb(251,251,242);
+	
+}
+
+#sidebar ul {	
+	display: inline;
+	padding: 10px;
+}
+.active {
+	font-weight: bold;	
+}
+#social-media-icons {
+	text-align:center;
+}
+
+#social-media-icons ul li {
+	display:inline;
+	padding:20px;
+}
+#social-media-icons img {
+	height:30px;
+	width:auto;
+	
+}
+.bio-photo {
+	float:left;  
+	width:150px;
+	margin-top:0;
+	margin-bottom:0;
+	margin-right:10px;
+	padding: 10px;	
+	font-style: italic;
+	font-size: 75%;
+	line-height:10px;
+	background:rgb(207,210,205); 
+
+}
+.bio-photo img {
+	height: auto;
+	width:150px;
+}
+
+.poem {
+	list-style-type:none;
+	padding: 50px;
+	display: inline;
+	
+	
+}
+
+
+.smalltext {
+	margin:0;
+	padding:10px;
+}
+
+#selected_works {
+	margin:auto;
+	padding:10px;
+	
+
+}
+
+#selected_works th {
+	background:rgb(132,117,119); 
+	color:white;
+	padding:10px;
+	border: 1px solid rgb(207,210,205);
+}
+
+#selected_works td {
+	padding:10px;
+	border: 1px solid rgb(207,210,205);
+}
+
+#selected_works.alt tr {
+	padding:10px;
+	border: 1px solid rgb(207,210,205);
+	background:rgb(132,117,119); 
+}
+
